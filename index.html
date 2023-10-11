@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BestShop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -23,15 +23,16 @@
                 </div>
                 <nav class="main__nav">
                     <ol class="main__nav__list">
-                        <li><a href="#">Why us</a></li>
-                        <li><a href="#">Benefits</a></li>
-                        <li><a href="#">Prices</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#statistics">Why us</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                        <li><a href="#prices">Prices</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ol>
                 </nav>
             </div>
         </header>
     </section>
+
     <section class="opening">
         <h1>Sell More!</h1>
         <p>Open shop on our platform and increase your sales</p>
@@ -39,9 +40,201 @@
         <img src="assets/Background.png" class="opening__img">
     </section>
 
-    <section class="statistics">
-<h2>The most popular sales platform in country</h2>
+    <section class="statistics" id="statistics">
+        <h2>The most popular sales platform in country</h2>
+        <div class="statistics__conteiner">
+            <div class="statistics__conteiner__block">
+                <div class="statistics__circle">
+                    <img src="assets/Person.svg" alt="Person" class="statistics__img">
+                </div>
+                <strong>100000+</strong>
+                <p>daily entries</p>
+            </div>
+            <div class="statistics__conteiner__block">
+                <div class="statistics__circle">
+                    <img src="assets/Eye.svg" alt="Assets" class="statistics__img">
+                </div>
+                <strong>2000000+</strong>
+                <p>seen products every day</p>
+            </div>
+            <div class="statistics__conteiner__block">
+                <div class="statistics__circle">
+                    <img src="assets/Catalog.svg" alt="Catalog" class="statistics__img">
+                </div>
+                <strong>10000+</strong>
+                <p>added posts daily</p>
+            </div>
+        </div>
+
     </section>
+
+    <section class="benefits" id="benefits">
+        <div class="benefits__container container">
+
+            <div class="benefits__single benefits__single--notebook">
+                <div class="benefits__text">
+                    <h2 class="benefits__title">Be always first</h2>
+                    <p class="benefits__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam.
+                    </p>
+                </div>
+                <div class="benefits__image">
+                    <img src="assets/Macbook.png" alt="macbook" />
+                </div>
+            </div>
+
+            <div class="benefits__single benefits__single--phone">
+                <div class="benefits__text">
+                    <h2 class="benefits__title">Your shop is<br>where you are!</h2>
+                    <p class="benefits__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam.
+                    </p>
+                </div>
+                <div class="benefits__image">
+                    <img src="assets/iPhone.png" alt="iPhone" />
+                </div>
+            </div>
+
+            <div class="benefits__double">
+                <div class="benefits__single benefits__single--solo">
+                    <div class="benefits__text">
+                        <h2 class="benefits__title">Increase recognition your brand!</h2>
+                        <p class="benefits__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="benefits__single benefits__single--image">
+                    <img src="assets/Trumpet.png" alt="Trumpet" />
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pricing" id="prices">
+        <h2 class="pricing__title">Pricing</h2>
+        <div class="pricing__container">
+            <div class="pricing__block basic">
+                <div class="pricing__details">
+                    <h3>Basic</h3>
+                    <strong>$0</strong>
+                </div>
+
+                <ol class="pricing__items">
+                    <li class="pricing__block__item--OK">100 MB HDD</li>
+                    <li class="pricing__block__item--OK">1 Subdomain</li>
+                    <li class="pricing__block__item--OK">2 E-mails</li>
+                    <li class="pricing__block__item--NOK">Two years license</li>
+                    <li class="pricing__block__item--NOK">Full support</li>
+                    <a class="btn btn--secondary" href="#">Begin</a>
+                </ol>
+
+            </div>
+            <div class="pricing__block professional">
+                <div class="pricing__details">
+                    <h3>Professional</h3>
+                    <strong>$25</strong>
+                    <p>Limited offer</p>
+                </div>
+                <ol class="pricing__items">
+                    <li class="pricing__block__item--OK">500 MB HDD</li>
+                    <li class="pricing__block__item--OK">2 Subdomains</li>
+                    <li class="pricing__block__item--OK">5 E-mails</li>
+                    <li class="pricing__block__item--NOK">One years license</li>
+                    <li class="pricing__block__item--NOK">Full support</li>
+                    <a class="btn btn--primary" href="#">Begin</a>
+                </ol>
+            </div>
+
+            <div class="pricing__block premium">
+                <div class="pricing__details">
+                    <h3>Premium</h3>
+                    <strong>$60</strong>
+                    <p>Limited offer</p>
+                </div>
+                <ol class="pricing__items">
+                    <li class="pricing__block__item--OK">2 GB HDD</li>
+                    <li class="pricing__block__item--OK">5 Subdomains</li>
+                    <li class="pricing__block__item--OK">20 E-mails</li>
+                    <li class="pricing__block__item--OK">Two years license</li>
+                    <li class="pricing__block__item--OK">Full support</li>
+                    <a class="btn btn--tertiary" href="#">Begin</a>
+                </ol>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact__column">
+            <h2 class="contact__title">Any questions?</h2>
+            <p class="contact__instruction">
+              Leave your email address or contact us!
+            </p>
+            <div class="contact__details">
+              <a href="mailto:info@bestshop.xyz" class="details__item">
+                <img src="assets/Mail%20Icon.svg" alt="mail"/>
+                info@bestshop.xyz
+              </a>
+        
+              <a href="tel:123456789" class="details__item">
+                <img src="assets/Phone%20Icon.svg" alt="phone"/>
+                123 456 789
+              </a>
+            </div>
+          </div>
+        
+          <div class="contact__column">
+            <form class="form">
+              <div class="form__field">
+                <label class="form__label" for="name">Name</label>
+                <input type="text" class="form__input name" id="name" />
+              </div>
+        
+              <div class="form__field">
+                <label class="form__label" for="email">E-mail</label>
+                <input type="email" class="form__input email" id="email" />
+              </div>
+        
+              <div class="form__consent">
+                <label class="form__checkbox">
+                  <input type="checkbox"/>
+                  <span class="checkbox"></span>
+                  <p class="consent__text">
+                    I hereby give consent for my personal data included in my
+                    application to be processed for the purposes of the recruitment
+                    process under the European Parliament's and Council of the
+                    European Union Regulation on the Protection of Natural Persons as
+                    of 27 April 2016, with regard to the processing of personal data
+                    and on the free movement of such data, and repealing Directive
+                    95/46/EC (Data Protection Directive)
+                  </p>
+                </label>
+              </div>
+              <button type="submit" class="btn btn--primary">Send</button>
+            </form>
+          </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__info">
+            <a href="#" class="logo">BestShop</a>
+            <span class="footer__copy">© 2019 BestShop LTD, All Rights Reserved</span>
+          </div>
+          <div class="footer__icons">
+            <a href="#"><img src="assets/Twitter.svg" alt="twitter"/></a>
+            <a href="#"><img src="assets/Facebook.svg" alt="facebook"/></a>
+          </div>
+        </div>
+      </footer>
 </body>
 
 </html>
